@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Adopt, me</title>
+    <!-- FALTA HACER QUE FUNCIONE -->
+    <link rel=”shortcut icon” type=”image/png href=”src/adopt_logo.png />
+</head>
+
+<body>
+    <div class="container">
+        <!-- ROW 1 - Logo - Idiomas - Input para buscador-->
+        <div class="row ">
+            <div class="col-sm-1">
+                <img src="src/adopt_logo.png" width="50" height="50" class="d-inline-block align-top" alt="">
+            </div>
+            <div class="col-sm-3" style="margin:auto;">
+                <div class="text-center">
+                    <h2> ADOPT ME !</h2>
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Idioma
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">ES</a>
+                                <a class="dropdown-item" href="#">EN</a>
+                                <a class="dropdown-item" href="#">FR</a>
+                            </div>
+
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- ROW 2 - Menú desplegable y responsivo -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Ayúdanos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="Encuesta.html">Encuesta</a>
+                            <a class="dropdown-item" href="Apadrina.html">Apadrina</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Donaciones
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="Listado.html">Listado</a>
+                            <a class="dropdown-item" href="Donar.html">Dona</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- ROW 3 - Utilizar migas de pan en las páginas interiores.-->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb" style="background-color: white;">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item">Donaciones</li>
+                <li class="breadcrumb-item active" aria-current="page">Dona</li>
+            </ol>
+        </nav>
+        <!-- ROW 6-7 - Tooltips y popovers.-->
+        <h5>Haz click sobre los botones para saber dispinibilidad de horarios</h5>
+        <hr size="2px" color="black" />
+        <div class="row py-3">
+            <div class="col-sm">
+                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
+                    data-placement="top" data-content="9:00-21:00">
+                    Lunes
+                </button>
+            </div>
+            <div class="col-sm">
+                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
+                    data-placement="bottom" data-content="9:00-21:00">
+                    Martes
+                </button>
+            </div>
+            <div class="col-sm">
+                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
+                    data-placement="top" data-content="9:00-21:00">
+                    Miércoles
+                </button>
+            </div>
+            <div class="col-sm">
+                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
+                    data-placement="bottom" data-content="9:00-21:00">
+                    Jueves
+                </button>
+            </div>
+            <div class="col-sm">
+                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
+                    data-placement="top" data-content="9:00-21:00">
+                    Viernes
+                </button>
+            </div>
+            <div class="col-sm">
+                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
+                    data-placement="bottom" data-content="7:00-14:00">
+                    Sábado
+                </button>
+            </div>
+        </div>
+        <h5>¿Como puedes colaborar/donar?</h5>
+        <hr size="2px" color="black" />
+        <div class="row py-4">
+            <div class="col-sm">
+                <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top"
+                    title="A la cuenta donaciones@protectora.es sin mínimo importe.">
+                    Paypal
+                </button>
+            </div>
+            <div class="col-sm">
+                <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right"
+                    title="A través del portal de pago al que te redirigirá este botón.">
+                    Tarjeta
+                </button>
+            </div>
+            <div class="col-sm">
+                <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom"
+                    title="A la dirección de contacto con cualquier material que pienses que pueda ser útil.">
+                    Material
+                </button>
+            </div>
+            <div class="col-sm">
+                <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left"
+                    title="Colaborando en tu tiempo libre con la asociación, ponte en contacto a través del número de teléfono o por correo.">
+                    Ayuda
+                </button>
+            </div>
+        </div>
+        <!-- ROW 4 - Pestañas y acordeon.-->
+        <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
+                    aria-controls="nav-home" aria-selected="true">¿Como?</a>
+                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
+                    aria-controls="nav-profile" aria-selected="false">Ventajas</a>
+                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
+                    aria-controls="nav-contact" aria-selected="false">Otras instituciones</a>
+            </div>
+        </nav>
+
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <p>¿Quieres
+                    ayudar a los animales sin hogar? Las protectoras y refugios son voluntarios que trabajan por
+                    atender,
+                    cuidar y buscar un hogar a animales abandonados gracias a la colaboración y donaciones de personas
+                    como
+                    tú. Sin ello su trabajo no sería posible.
+                </p>
+                <p>
+                    Hay diferentes formas de ayudar a estos animales, desde adoptar, apadrinar, ofrecerse como casa de
+                    acogida temporal, hacerse voluntario para cuidar a los animales y participar en rastrillos o eventos
+                    solidarios, donar dinero o donar cosas útiles para atender las necesidades de los animales de las
+                    protectoras. El invierno es una época especialmente dura para los animales sin hogar que viven en
+                    cheniles, sobre todo, para cachorros y mayores que son más sensibles al frío.
+                </p>
+                <h5>10 cosas que puedes donar a un refugio de animales</h5>
+                <hr size="2px" color="black" />
+                <ol>
+                    <li>Alimento</li>
+                    <li>Periódicos y revistas</li>
+                    <li>Jaulas</li>
+                    <li>Productos de limpieza</li>
+                    <li>Productos de higiene</li>
+                    <li>Productos sanitarios</li>
+                    <li>Eletrodomésticos</li>
+                    <li>Productos de abrigo </li>
+                    <li>Accesorios para mascotas</li>
+                    <li>Material de construcción</li>
+                </ol>
+            </div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <p>
+                    Te proporcionará una actitud reivindicativa ante las desigualdades. Conocerás en profundidad las
+                    situaciones de desigualdad y vulnerabilidad del mundo, acercándolas a tu realidad.
+                </p>
+                <p>
+                    Tiene beneficios fiscales. Te puedes deducir hasta un 75% en los primeros 150 euros donados. Y en
+                    el resto de la donación un 30%.
+                </p>
+            </div>
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <ul>
+                    <li>
+                        <a href="http://www.parqueanimal.com/" target="_blank">Asociación Parque Animal (Málaga)</a>
+                    </li>
+                    <li>
+                        <a id="link_0" title="http://www.scoobymedina.com/home_es.htm"
+                            href="http://www.scoobymedina.com/home_es.htm">Amigos de los Animales</a>
+                    </li>
+                    <li>
+                        <a id="link_0" title="http://www.protectoradealcoy.com"
+                            href="http://www.protectoradealcoy.com/">Protectora de Alcoy</a>
+                    </li>
+                    <li>
+                        <a href="http://www.refuxio.org/">O refuxio de Bando</a>
+                    </li>
+                    <li>
+                        <a href="http://perrosadopcion.blogspot.com/">Ollo ó can</a>
+                    </li>
+                    <li>
+                        <a id="link_0" title="http://www.teneriffa-tierheim.de/"
+                            href="http://www.teneriffa-tierheim.de/">La Rosaleda</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- ROW 5 - Ventana modal.-->
+        <div class="row py-3">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                Aceptar terminos y condiciones
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                Es requisito necesario para la adquisición de los productos que se ofrecen en este
+                                sitio,
+                                que lea y acepte los siguientes Términos y Condiciones que a continuación se redactan.
+                                El
+                                uso de nuestros servicios así como la compra de nuestros productos implicará que usted
+                                ha
+                                leído y aceptado los Términos y Condiciones de Uso en el presente documento. Todas los
+                                productos que son ofrecidos por nuestro sitio web pudieran ser creadas, cobradas,
+                                enviadas o
+                                presentadas por una página web tercera y en tal caso estarían sujetas a sus propios
+                                Términos
+                                y Condiciones. En algunos casos, para adquirir un producto, será necesario el registro
+                                por
+                                parte del usuario, con ingreso de datos personales fidedignos y definición de una
+                                contraseña.
+                            </p>
+                            <p>
+                                El usuario puede elegir y cambiar la clave para su acceso de administración de la cuenta
+                                en
+                                cualquier momento, en caso de que se haya registrado y que sea necesario para la compra
+                                de
+                                alguno de nuestros productos. no asume la responsabilidad en caso de que entregue dicha
+                                clave a terceros.
+                            </p>
+                            <p>
+                                Todas las compras y transacciones que se lleven a cabo por medio de este sitio web,
+                                están
+                                sujetas a un proceso de confirmación y verificación, el cual podría incluir la
+                                verificación
+                                del stock y disponibilidad de producto, validación de la forma de pago, validación de la
+                                factura (en caso de existir) y el cumplimiento de las condiciones requeridas por el
+                                medio de
+                                pago seleccionado. En algunos casos puede que se requiera una verificación por medio de
+                                correo electrónico.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ROW 8 - Pie diferenciado con tres bloques.-->
+        <div class="row py-3" style="background-color: black;">
+            <div class="col-sm-4">
+                <h6 class="text-muted lead">CONTACTO</h6>
+                <h6 class="text-muted">
+                    Crtra. 8 No. 166-71<br>
+                    Pamplona, Navarra.<br>
+                    Teléfonos: 948888888 – 616000333.<br>
+                </h6>
+            </div>
+            <div class="col-sm-4" style="text-align: justify;">
+                <h6 class="text-muted lead">ACERCA DE...</h6>
+                <h6 class="text-muted">
+                    <P>Entidad privada sin ánimo de lucro que lucha, por la dignidad, el respeto y la responsabilidad de
+                        las
+                        personas hacia los animales domésticos con los que conviven.</P>
+                </h6>
+            </div>
+            <div class="col-sm-4" style="text-align: right;">
+                <h6 class="text-muted lead">NUESTRAS REDES</h6>
+                <a href="https://www.facebook.com/"><img src="src/facebook.png" style=" width: 30px; height: 30px;"></a>
+                <a href="https://twitter.com/"><img src="src/twitter2.png" style=" width: 30px; height: 30px;"></a>
+                <a href="https://www.youtube.com/"><img src="src/youtube.png" style=" width: 30px; height: 30px;"></a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+        $(function () {
+            $('[data-toggle="popover"]').popover()
+        })
+    </script>
+</body>
+
+</html>
